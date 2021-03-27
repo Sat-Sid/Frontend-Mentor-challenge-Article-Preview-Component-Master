@@ -1,0 +1,233 @@
+body {
+  background-color: #ecf2f8;
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+figure {
+  margin: 0;
+}
+
+h3 {
+  font-weight: 700;
+  color: #48556a;
+  font-size: 1.25rem;
+  margin: 12px auto;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.35rem;
+  color: #6d7f97;
+}
+
+.main-container {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 290px auto;
+  grid-column-gap: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  height: 280px;
+  width: 730px;
+  margin: 150px auto;
+}
+
+.img-section {
+  width: 285px;
+  overflow: hidden;
+}
+
+.drawer-img {
+  border-radius: 12px 0 0 12px;
+  height: 280px;
+}
+
+.text-section {
+  padding: 20px;
+  text-align: left;
+}
+
+.profile-section {
+  display: inline-grid;
+  grid-template-columns: 40px 240px 40px;
+  grid-column-gap: 20px;
+  margin-top: 6px;
+}
+
+.michelle-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.pro-name-par {
+  margin-top: 0;
+}
+
+.pro-name {
+  color: #48556a;
+  font-weight: 700;
+}
+
+.pro-icon {
+  height: 30px;
+  width: 30px;
+  background-color: #ecf2f8;
+  border-radius: 50%;
+  margin-top: 7px;
+  z-index: 1;
+}
+
+.pro-icon:hover{
+    cursor: pointer;
+}
+
+.icon-fig {
+  margin-top: 3px;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+  color: hsl(228, 45%, 44%);
+}
+
+/* Visible on click using Js */
+.jsOnClick {
+  display: none;
+  position: absolute;
+  top: 130px;
+  right: -50px;
+  text-align: center;
+}
+
+.jsOnClickSocialBlock {
+  width: 245px;
+  height: 55px;
+  background-color: #48556a;
+  text-align: center;
+  letter-spacing: 0.7rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px 1px #9eafc2;
+}
+
+.onClickSquare {
+  display: inline-block;
+  position: absolute;
+  top: 45px;
+  height: 20px;
+  width: 20px;
+  background-color: #48556a;
+  transform: rotate(45deg);
+}
+
+.onClickSocial-par {
+  color: #9eafc2;
+  letter-spacing: 0.28rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons {
+  margin-top: 2px;
+  margin-bottom: -5px;
+}
+
+.social-icons-link{
+  text-decoration: none;
+}
+
+.hover {
+  transform: rotate(10deg);
+}
+
+@media (max-width: 375px) {
+
+  h3 {
+    font-size: 1.04rem;
+  }
+
+  .main-container {
+    display: block;
+    position: relative;
+    height: auto;
+    width: 330px;
+    margin: 100px auto;
+  }
+
+  .img-section {
+    border-radius: 12px 12px 0 0;
+    height: 230px;
+    width: 330px;
+    overflow: hidden;
+  }
+
+  .drawer-img {
+    width: 330px;
+  }
+
+  .text-section {
+    padding: 20px 35px 0;
+  }
+
+  .profile-section {
+    display: inline-grid;
+    grid-template-columns: 40px 150px 30px;
+    margin: 15px auto 10px;
+  }
+
+  /* Visible on click using Js */
+  .jsOnClick {
+    display: none;
+    position: absolute;
+    top: inherit;
+    right: inherit;
+    bottom: 0;
+    left: 0;
+  }
+
+  .jsOnClickSocialBlock {
+    width: 230px;
+    height: 65px;
+    border-radius: 0 0 0 12px;
+    padding-top: 10px;
+    box-shadow: none;
+  }
+
+  .onClickSquare {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -100px;
+    transform: rotate(0deg);
+    width: 110px;
+    height: 75px;
+    border-radius: 0 0 12px 0;
+  }
+}
+
+
+/* Ref
+
+- Very Dark Grayish Blue: hsl(217, 19%, 35%)  	#48556a
+- Desaturated Dark Blue: hsl(214, 17%, 51%)  	#6d7f97
+- Grayish Blue: hsl(212, 23%, 69%)  #9eafc2
+- Light Grayish Blue: hsl(210, 46%, 95%)  	#ecf2f8
+- hsl(228, 45%, 44%)  #3e52a3
+
+-facebook color: #3B5998
+-twitter color: #1DA1F2
+-pinterest color: #E60023
+
+font-family: 'Manrope', sans-serif;
+*/
